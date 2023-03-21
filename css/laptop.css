@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/*********** Start of Header ************/
+header{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6));
+}
+.banner-img{
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+#banner > h1, #banner > span{
+    margin-top: 10%;
+}
+#banner{
+    text-align: center;
+    color: white;
+}
+/*********** End of Header ************/
+
+/*********** Start of NavBar ************/
+#nav-bar{
+    display: inline-block;
+}
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav > a > i{
+    color: #169CDB!important;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+.container-inner-middle{
+    margin-left: 110px;
+    margin-right: 180px;
+}
+
+#text-inner{
+    margin-top: -10px;
+    text-transform: none!important;
+}
+#text-inner > img{
+    position: absolute;
+    border: solid 5px white;
+    border-radius: 100%;
+    width: 170px;
+    margin-left: -50px;
+    margin-top: -70px;
+    box-shadow: 0px 0px 5px #D7D7D7;
+}
+#text-inner > b{
+    color: #D5D4CE;
+}
+
+.container-inner{
+    margin-right: 80px;
+}
+/*********** End of NavBar ************/
+
+/*********** Start of About ************/
+.icon_info{
+    position: absolute;
+    margin-left: -193px;
+    margin-top: 50px;
+}
+.icon_info > i{
+    color: #169CDB!important;
+}
+.container > a{
+    text-transform: uppercase;
+}
+i{
+    color: #169CDB!important;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#target{
+    padding:150px 70px 50px 260px;
+}
+#target > h1{
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-weight: normal!important;
+}
+#target > p{
+    color: #838383;
+}
+#personal-info > ul{
+    margin-top: 160px;
+    position: relative;
+    margin-left: -230px;
+    list-style: none;
+}
+#personal-info > ul > li{
+    color: #838383!important;
+    margin-top: 15px;
+}
+#personal-info > ul > li > span{
+    color: black!important;
+}
+#personal-info{
+    top: 50px;
+    padding: 20px 260px 160px;
+    background-color: #F0F0F0;
+}
+#personal-info > h1{
+    line-height: 1.8;
+    margin-left: -200px;
+    position: relative;
+    top: 120px;
+    margin-bottom: 40px;
+    font-weight: normal!important;
+}
+#container-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/*********** End of About ************/
+
+/*********** Start of JobInfo ************/
+#job-info > .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.content > .i-time{
+    position: relative;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+.content > p{
+    margin-bottom: 10px;
+    color: #717171;
+}
+i{
+    color: gray!important;
+}
+.content{
+    margin: 30px 0px;
+}
+.content > ul{
+    list-style: none;
+}
+.content > ul > li::before{
+    content: "•";
+    color: #169CDB;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+}
+.single-box{
+    border: solid 1px #D7D7D7;
+    padding: 30px 30px;
+    height: 800px;
+}
+.single-box-2{
+    border: solid 1px #D7D7D7;
+    padding: 20px 40px;
+    height: 450px;
+}   
+.head-box{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.head-box > h1{
+    margin-top: 17px;
+    color: #6D6D6D;
+}
+strong{
+    color: #6D6D6D;
+}
+
+.head-box > i{
+    font-size: 50px;
+}
+
+.interest{
+    margin-top: 25px;
+}
+.text{
+    margin-top: 15px;
+    position: absolute;
+    display: flex;
+    margin-left: -10px;
+}
+.text > p{
+    margin-right: 15px;
+    color: #717171;
+    font-size: 13px;
+}
+.single-icon > i{
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.single-icon{
+    border: solid 1px skyblue;
+    border-radius: 100px;
+    padding: 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.skill-inner{
+    margin-top: 25px;
+}
+
+.point{
+    background: #199cdb;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+}
+.point-null{
+    background: #D7D7D7;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+}
+/*********** End of JobInfo ************/
+
+/*********** Start of Certificate ************/
+.certificate{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+
+.single-certificate{
+    display: flex;
+    
+}
+#single-certificate-first{
+    border-right: solid 1px orange;
+    margin-right: 10px;
+}
+.single-certificate > img{
+    width: 40%;
+    margin-right: 20px;
+}
+.certificate-inner > p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.certificate-inner > span{
+    font-size: 13px;
+    color: #7D7C7E;
+}
+#imgC2{
+    width: 19%;
+}
+
+.lineunder{
+    background: orange;
+    display: inline-block;
+    height: 1px;
+    width: 1000px;
+    margin-top: 30px;
+}
+/*********** End of Certificate ************/
+
+/*********** Start of Project ************/
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.single-project{
+    
+}
+.single-project > img{
+    width: 100%;
+}
+
+.content-project{
+    margin-top: -4px;
+    height: 45px;
+    width: 100%;
+    border: solid 1px #D7D7D7;
+    margin-bottom: 10px;
+}
+.content-project > p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.content-project-2{
+    padding: 5px;
+    margin-top: -11px;
+    position: relative;
+    margin-bottom: 20px;
+    height: 45px;
+    width: 100%;
+    border: solid 1px #D7D7D7;
+    color: #ABABAB;
+}
+.content-project-2-inner{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.dev{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+table{
+    margin-top: -21px;
+    border: solid 1px #D7D7D7;
+    height: 400px;
+}
+
+th{
+    padding: 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+/*********** End of Project ************/
+
+/*********** Start of Footer ************/
+#footer > .container > ul{
+    text-align: center;
+}
+#footer > .container > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #ABABAB;
+}
+
+#footer > .container > ul > li > i{
+    border: solid 1px #33A6DE;
+    border-radius: 100%;
+    padding: 7px 4px 4px 4px;
+    font-size: 20px;
+    background-color: #33A6DE;
+    color: white!important;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*********** End of Footer ************/
+
+/*********** Start of Digital-cv ************/
+.project > a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.khoi{
+    background-color: #F0F8FF;
+}
+hr.dashed {
+    border-top: 1px dashed #63C2C9;
+}

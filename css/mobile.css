@@ -1,0 +1,111 @@
+@media screen and (max-width: 600px){
+    /*********** Start of NavBar ************/
+    #nav-bar{
+        padding: 0px;
+    }
+    .container-inner-middle{
+        display: none;
+    }
+    
+    #nav-bar > .container{
+        display: block!important;
+        padding: 10px;
+    }
+    #nav-bar > .container > .container-inner{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+    /*********** End of NavBar ************/
+    
+    /*************Start of About*************/
+    #container-grid{
+        grid-template-columns: 1fr;
+    }
+
+    #target{
+        padding-left:50px;
+        margin-left: 0px;
+        padding-right: 160px;
+
+    }
+    #personal-info {
+        padding: 0px 260px 100px;
+        padding-right: 0px;
+        width: 600px;
+        margin-left: -40px;
+    }
+    #personal-info > h1{
+        top: 30px;
+        margin-left: -170px;
+    }
+    #personal-info > ul{
+        margin-top: 30px; 
+        margin-left: -200px;
+    }
+    .icon_info{
+        margin-left: -170px;
+    }
+    /*************End of About*************/
+    
+    /*******Start of JobInfo********/
+    #job-info > .container{
+        grid-template-columns: 1fr;
+    }
+    /*********** Start of Certificate ************/
+    .certificate{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    section > .container{
+        width: 100%;
+        padding: 0px;
+    }
+    #imgC2{
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    #single-certificate-first{
+        border-right: none;
+        border-bottom: solid 1px orange;
+        margin-right: 10px;
+    }
+    .single-certificate{
+        
+    }
+    .single-certificate > img{
+        margin-top: 30px;
+        width: 50%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    /*********** End of Certificate ************/
+
+    /*********** Start of Project ************/
+    .project{
+        grid-template-columns: 1fr;
+    }
+    .single-project{
+        margin-bottom: 20px;
+    }
+    .single-project > img{
+        width: 100%;
+        height: auto;
+    }
+    /*********** End of Project ************/
+
+    /*********** Start of Footer ************/
+    #footer {
+        height: 50px;
+        margin-top: -40px;
+    }
+
+    #footer > .container > ul > li{
+        position: relative;
+        margin-top: 15px;
+    }
+    /*********** End of Footer ************/
+}

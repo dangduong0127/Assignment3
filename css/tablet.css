@@ -1,0 +1,110 @@
+@media screen and (max-width: 992px){
+    /*********** Start of NavBar ************/
+    #nav-bar
+    {
+        padding: 30px;
+    }
+    .container-inner-middle{
+        display: none;
+    }
+   
+    .container-inner{
+        position: relative;
+        margin-right: auto;
+    }
+    /*********** End of NavBar ************/
+
+    /*******Start of About********/
+    #target{
+        padding: 30px 0px 0px;
+        margin-left: -80px;
+    }
+    #personal-info {
+        padding: 0px 260px 100px;
+        padding-right: 0px;
+        width: 600px;
+    }
+    #personal-info > h1{
+        top: 30px;
+    }
+    #personal-info > ul{
+        margin-top: 30px; 
+    }
+    /*******End of About********/
+
+    /*******Start of JobInfo********/
+    #job-info > .container{
+        grid-template-columns: repeat(2, 50%);
+        grid-gap: 20px;
+    }
+    .single-box{
+        height: 800px;
+    }
+    /*******End of JobInfo********/
+
+    /*********** Start of Certificate ************/
+    .certificate{
+        position: relative;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    section > .container{
+        width: 100%;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .single-certificate{
+        display: inline-block;
+    }
+    #imgC2{
+        margin-top: 10px;
+        width: 50%;
+        margin-left: -30px;
+        margin-bottom: 10px;
+    }
+    .single-certificate > img{
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    /*********** End of Certificate ************/
+
+    /*********** Start of Project ************/
+    .project{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .single-project{
+
+    }
+    .single-project > img{
+        width: 260px;
+        height: 200px;
+    }
+    table{
+        height: 600px;
+        margin-bottom: 20px;
+    }
+    .content-project{
+        height: 70px;
+    }
+    .content-project-2{
+       margin-top: -11px;
+    }
+    .dev{
+        position: relative;
+        margin-top: 20px;
+    }
+    /*********** End of Project ************/
+    
+    /*********** Start of Footer ************/
+    #footer {
+        height: 50px;
+    }
+
+    #footer > .container > ul > li{
+        position: relative;
+        margin-top: 15px;
+    }
+}
